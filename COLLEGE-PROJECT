@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Of SAITM COLLEGE</title>
+    <link rel="stylesheet" href="Project.css">
+    <link rel="ICON" href="https://erp.saitm.ac.in/loginpageContent/assets/images/saitm-favicon.jpg"
+        type="image/x-icon">
+</head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #f3f7fb;
+    --primary: #26a15d;
+    --secondary: #2d2872;
+    --accent: #e8f1ff;
+    --text: #020d0f;
+    --muted: #a9acaf;
+    --white: #b6b9d4;
+    --shadow: rgba(22, 61, 122, 0.15);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f4f8ff, #dfeeff);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--white);
+    padding: 30px 20px 24px;
+    text-align: center;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+header h1 {
+    margin: 0 0 16px;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+header nav {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav a,
+.site-footer a,
+main a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav a {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 8px 14px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px 40px;
+}
+
+main > a {
+    display: inline-block;
+    margin-bottom: 24px;
+    background: var(--secondary);
+    color: var(--white);
+    padding: 12px 18px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(29, 94, 184, 0.2);
+}
+
+section {
+    background: var(--white);
+    padding: 22px 24px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(20, 30, 50, 0.08);
+    margin-bottom: 24px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: var(--primary);
+    font-size: 1.8rem;
+}
+
+section p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: var(--text);
+}
+
+.site-footer {
+    background: #0d2350;
+    color: var(--white);
+    text-align: center;
+    padding: 18px 20px;
+}
+
+.site-footer p {
+    margin: 0 0 8px;
+}
+
+.site-footer a {
+    color: #d9ebff;
+}
+
+
+</style>
+
+
+<body>
+    <header>
+        <h1>Explore to SAITM COLLEGE</h1>
+        <nav><a href="#about">About</a></nav>
+        <nav><a href="#programs">Programs</a></nav>
+        <nav><a href="College photos.pdf" target="_blank">Campus images</a></nav>
+
+
+        <nav><a href="https://erp.saitm.ac.in/" target="_blank">ERP Login</a></nav>
+        <nav><a href="https://saitm.ac.in/" target="_blank">Visit the official website</a></nav>
+        <nav><a href="https://maps.app.goo.gl/Eowc11BdCRKYkRTo9" target="_blank">LOCATION</a></nav>
+        <nav><a href="St_Andrews_College- B.TECH & M.TECH Brochure.pdf" target="_blank">Placement Records</a></nav>
+        <nav><a href="St_Andrews_Fees Structure-2026.pdf" target="_blank">Fee Structure</a></nav>
+        <br><br>
+        <section id="about">
+            <h2>About SAITM COLLEGE</h2>
+            <p>
+                St. Andrews Institute of Technology & Management (SAITM) is a premier educational institution located in
+                India.
+                It offers a wide range of undergraduate and postgraduate programs in various fields, including
+                engineering, management, and computer science.
+                <br>
+                <br>
+                St. Andrews Institute of Technology and Management (SAITM) in Gurugram is generally considered an
+                average, mid-tier private institute rather than a top-tier college, offering valid degrees but receiving
+                mixed reviews from students.<br>
+                <br>
+            </p>
+            <b>
+                <p>Build your future at St. Andrews
+                    Explore an overview of <u><a href="https://maps.app.goo.gl/Eowc11BdCRKYkRTo9" target="_blank"
+                            style="color: #3e8ac9; text-decoration: underline;">St. Andrews Institute of Technology &
+                            Management,
+                            Haryana.</a><br>located in Farukhnagar,</p></u></p>
+            </b>
+
+
+    </header>
+
+    <main>
+
+        <img src="Entry Gate Images..jfif" alt="SAITM Image">
+        <img src="Hostel Images.jfif" alt="Hostel Image">
+        <img src="Entry Building.jfif" alt="SAITM Image" height="200" width="400">
+        <video autoplay loop muted playsinline width="100%" height=400 width="900" muted controls>
+
+            <source src="SAITM COLLEGE OVERVIEW-.mp4" type="video/mp4">
+            Aapka browser video tag ko support nahi karta hai.
+        </video>
+        <br>
+        <div class="programs" id="programs">
+            <h2>Programs Offered</h2>
+            <ul>
+                <li>Bachelor of Technology (B.Tech)</li>
+                <li>Master of Business Administration (MBA)</li>
+                <li>Bachelor of Computer Applications (BCA)</li>
+                <li>Master of Computer Applications (MCA)</li>
+                <li>Bachelor of Science (B.Sc)</li>
+                <li>Master of Science (M.Sc)</li>
+                <li>Bachelor of Pharmacy (B.Pharm)</li>
+                <li>Diploma in Pharmacy (D.Pharm)</li>
+            </ul>
+
+        </div>
+
+
+    </main>
+    <footer class="site-footer">
+        <p>St. Andrews Institute of Technology & Management</p>
+        <a href="#about" title="Back to Top">Back of top</a>
+    </footer>
+</body>
+
+</html>
